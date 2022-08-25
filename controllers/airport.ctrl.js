@@ -9,4 +9,3 @@ exports.getAll = (req, res) => {
         .then(rslt => res.send(rslt))
         .catch(err => res.status(500).send({message: err.message}))
 }
- 
