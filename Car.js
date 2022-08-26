@@ -1,3 +1,5 @@
+const { Sequelize } = require("./models")
+
 class Car {
     constructor(name, color, category, wheel, engine) {
         this.name = name
