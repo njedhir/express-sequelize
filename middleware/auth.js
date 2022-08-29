@@ -2,7 +2,7 @@ const verifyUser = (req, res, next) => {
     if (req.headers.username === 'ares' && req.headers.password === 'bocahnakal') {
         next()
     } else {
-        res.send(401)
+        res.sendStatus(401)
     }
 }
 
